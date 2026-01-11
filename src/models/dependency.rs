@@ -9,7 +9,7 @@ pub struct Dependency {
     pub kind: String,
     pub enabled_features: Vec<String>,
     pub disabled_features: Vec<String>,
-    pub all_features: Vec<String>,
+    // pub all_features: Vec<String>,
 }
 
 impl Dependency {
